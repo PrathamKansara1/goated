@@ -1,0 +1,205 @@
+.preference_container {
+  background-color: var(--primary);
+  height: 856px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.rectangle_1392_preference {
+  width: 425px;
+  height: 443px;
+  background-color: var(--terms_light_bg);
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.rectangle_1392_preference .preference_titles {
+  color: var(--preference_title);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.price_format {
+  margin-top: 23px;
+  margin-left: 29px;
+}
+
+.preference_radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 27.67px;
+  margin-top: 15px;
+  gap: 21px;
+}
+
+.preference_radio .radio_btn_preference {
+  display: flex;
+  gap: 16.67px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.preference_radio .radio_btn_preference input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  font: inherit;
+  color: currentColor;
+  width: 14.67px;
+  height: 14.67px;
+  border: 1px solid #39495a;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: var(--secondary);
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.vector_31 {
+  margin-top: 34.67px;
+  border: 1px solid #1c2731;
+}
+
+.select_intrests{
+  margin-top: 22px;
+  margin-left: 27px;
+}
+
+.intrests{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 17px;
+  margin-left: 26px;
+}
+
+.intrests .active{
+  background-color: var(--secondary);
+  color: var(--terms_btn_txt);
+}
+
+.preference_button{
+  width: 364px;
+  height: 38px;
+  background-color: var(--secondary);
+  margin-top: 26.5px;
+  margin-left: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.preference_button span{
+  color: var(--terms_btn_txt);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.zigzag_vertical_preference {
+  width: 276px;
+  height: 276px;
+  position: absolute;
+  right: 137px;
+  top: 609px;
+  display: flex;
+  flex-direction: row;
+}
+
+.zigzag_vertical_preference img {
+  height: 276px;
+  width: 137.98px;
+}
+
+@media screen and (max-width : 1215px){
+  .preference_container{
+    height: 800px;
+  }
+  .zigzag_vertical_preference{
+    right: 70px;
+    top: 660px;
+    height: 150px;
+    width: 150px;
+  }
+  .zigzag_vertical_preference img{
+    height: 150px;
+    width: 74.98px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .rectangle_1392_preference{
+    width: 280px;
+    overflow-y: scroll;
+  }
+  
+  .preference_radio{
+    flex-wrap: wrap;
+  }
+
+  .intrests {
+    flex-direction: column;
+  }
+
+  .intrests .intrest_card{
+    justify-content: space-between;
+  }
+  
+  .preference_button{
+    width: 240px;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 300px){
+  .rectangle_1392_preference{
+    width: 200px;
+    overflow-y: scroll;
+  }
+
+  .intrests {
+    margin: 15px 20px;
+  }
+
+  .preference_button{
+    width: 150px;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+}

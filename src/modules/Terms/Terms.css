@@ -1,6 +1,6 @@
 .terms_container {
   background-color: var(--primary);
-  height: 900px;
+  height: 856px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,6 +144,7 @@
   justify-content: center;
   cursor: pointer;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .rectangle_13 span {
@@ -158,7 +159,7 @@
   height: 276px;
   position: absolute;
   right: 137px;
-  top: 653px;
+  top: 609px;
   bottom: -29px;
   display: flex;
   flex-direction: row;

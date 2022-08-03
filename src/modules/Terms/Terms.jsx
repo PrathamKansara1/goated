@@ -1,23 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Terms.css";
 import Vector from '../../assets/Vector.png'
+import SliderTop from "../../components/SliderTop";
+import {Link} from 'react-router-dom'
 
 const Terms = () => {
+  const [checked, setChecked] = useState(false)
+  const handleChange = (e) => {
+    setChecked(e.target.checked)
+  }
   return (
     <div className="terms_container">
-      <div className="frame_11">
-        <div className="frame_11_title">
-          <span>Welcome to Goated</span>
-        </div>
-        <div className="frame_11_description">
-          <span>We’re glad to have you onboard with us</span>
-        </div>
-      </div>
-      <div className="group_1829">
-        <div className="rectangle_140X active"></div>
-        <div className="rectangle_140X"></div>
-        <div className="rectangle_140X"></div>
-      </div>
+      <SliderTop title="Welcome to Goated" description="We’re glad to have you onboard with us" slide="first" />
       <div className="rectangle_1392">
         <div className="group_51">
           <div className="rectangle_420">
@@ -34,13 +28,13 @@ const Terms = () => {
             </span>
           </div>
           <div className="ask_question">
-            <input type="checkbox" name="agree" id="" />
+            <input type="checkbox" name="agree" id="agree" onChange={handleChange}/>
             <p className="question">I agree to Vertex’s  <a href="/">Terms of Service </a></p>
           </div>
         </div>
-        <div className="rectangle_13">
+        <Link to={checked === true ? "/preference" : "/"} className="rectangle_13">
           <span>Continue to Goated</span>
-        </div>
+        </Link>
       </div>
       <div className="zigzag_vertical">
         <img src={Vector} alt="" />
