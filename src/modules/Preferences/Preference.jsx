@@ -11,59 +11,41 @@ import Mma from "../../assets/IntrestSvg/MMA.svg";
 import Rugby from "../../assets/IntrestSvg/Rugby.svg";
 import Tennis from "../../assets/IntrestSvg/Tennis.svg";
 import Volleyball from "../../assets/IntrestSvg/Volleyball.svg";
-import Add from "../../assets/IntrestSvg/addIntrest.svg";
-import Done from "../../assets/IntrestSvg/Done.svg";
 import { Link } from "react-router-dom";
 
 const Preference = () => {
   const intrests = [
     {
       intrest_name: "Football",
-      intrest_svg: Football,
-      status_svg: Add,
-      status: "unselected",
+      intrest_svg: Football
     },
     {
       intrest_name: "Baseball",
-      intrest_svg: Baseball,
-      status_svg: Add,
-      status: "unselected",
+      intrest_svg: Baseball
     },
     {
       intrest_name: "Tennis",
       intrest_svg: Tennis,
-      status_svg: Add,
-      status: "unselected",
     },
     {
       intrest_name: "Basketball",
       intrest_svg: Basketball,
-      status_svg: Add,
-      status: "unselected",
     },
     {
       intrest_name: "Esports",
       intrest_svg: Esports,
-      status_svg: Done,
-      status: "selected",
     },
     {
       intrest_name: "MMA",
       intrest_svg: Mma,
-      status_svg: Add,
-      status: "unselected",
     },
     {
       intrest_name: "Volleyball",
       intrest_svg: Volleyball,
-      status_svg: Add,
-      status: "unselected",
     },
     {
       intrest_name: "Rugby",
       intrest_svg: Rugby,
-      status_svg: Add,
-      status: "unselected",
     },
   ];
   return (
