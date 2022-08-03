@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+:root{
+    --primary: #0c1218;
+    --secondary: #88C800;
+    --terms_btn_txt: #365000;
+    --terms_light_bg: #1c2935
+}

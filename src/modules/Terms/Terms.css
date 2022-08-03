@@ -1,0 +1,262 @@
+.terms_container {
+  background-color: var(--primary);
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.frame_11 {
+  height: 61px;
+  width: 387px;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frame_11_title {
+  width: 190px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame_11_title span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+
+.frame_11_description {
+  display: flex;
+  justify-content: center;
+  width: 387px;
+  height: 36px;
+  color: #4a637b;
+}
+
+.group_1829 {
+  height: 7px;
+  width: 113px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.group_1829 .active {
+  background-color: var(--secondary);
+}
+
+.rectangle_140X {
+  width: 31px;
+  height: 7px;
+  background-color: var(--terms_light_bg);
+}
+
+.rectangle_1392 {
+  width: 425px;
+  height: 408px;
+  background-color: var(--terms_light_bg);
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group_51 {
+  width: 387px;
+  height: 277px;
+  margin-top: 18px;
+  margin-left: 19px;
+  margin-right: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group_51 .rectangle_420 {
+  background-color: #10171f;
+  width: 387px;
+  height: 221px;
+  color: #3e4b58;
+  padding: 25px 26px;
+  overflow-y: scroll;
+}
+
+.group_51 .rectangle_420 span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.ask_question {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.ask_question input[type="checkbox"]{
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 4px;
+  margin-left: 21px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.ask_question input[type="checkbox"]:checked{
+  background-color: var(--secondary );
+
+}
+
+
+.ask_question .question {
+  height: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7c95ae;
+}
+
+.ask_question .question a {
+  color: white;
+
+}
+
+.rectangle_13 {
+  width: 364px;
+  height: 38px;
+  background-color: var(--secondary);
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.rectangle_13 span {
+  color: var(--terms_btn_txt);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.zigzag_vertical {
+  width: 276px;
+  height: 276px;
+  position: absolute;
+  right: 137px;
+  top: 653px;
+  bottom: -29px;
+  display: flex;
+  flex-direction: row;
+}
+
+.zigzag_vertical img{
+  height: 276px;
+  width: 137.98px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--terms_light_bg);
+  border-radius: 4px;
+  margin-right: 13px;
+}
+
+@media screen and (max-width : 980px){
+  .terms_container{
+    height: 800px;
+  }
+  .zigzag_vertical{
+    right: 70px;
+    height: 150px;
+    width: 150px;
+  }
+  .zigzag_vertical img{
+    height: 150px;
+    width: 74.98px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .frame_11_title span{
+    font-size: 15px;
+  }
+
+  .frame_11_description span{
+    font-size: 10px;
+  }
+
+  .group_1829,.rectangle_140X{
+    height: 4px;
+  }
+
+  .rectangle_1392{
+    width: 350px;
+    height: 360px;
+  }
+
+  .group_51{
+    width: 300px;
+    height: 240px;
+  }
+
+  .group_51 .rectangle_420{
+    width: 300px;
+    height: 200px;
+  }
+
+  .rectangle_13{
+    width: 330px;
+    height: 35px;
+  }
+
+}
+
+@media screen and (max-width: 300px){
+  .group_1829,.rectangle_140X{
+    height: 3px;
+  }
+
+  .rectangle_1392{
+    width: 250px;
+  }
+
+  .group_51{
+    width: 220px;
+  }
+
+  .group_51 .rectangle_420{
+    width: 220px;
+  }
+
+  .rectangle_13{
+    width: 230px;
+    height: 35px;
+  }
+
+  .ask_question input[type="checkbox"]{
+    height: 12px;
+    width: 12px;
+  }
+
+  .ask_question .question {
+    font-size: 11px;
+  }
+}
