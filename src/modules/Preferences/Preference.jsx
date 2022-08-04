@@ -101,7 +101,7 @@ const Preference = () => {
             />
           ))}
         </div>
-        <Link to="/" className="preference_button">
+        <Link to="/funding" className="preference_button">
           <span>Continue to Goated</span>
         </Link>
       </div>

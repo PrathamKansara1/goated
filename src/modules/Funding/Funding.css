@@ -1,0 +1,213 @@
+.funding_container {
+  background-color: var(--primary);
+  height: 856px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.rectangle_1392_funding {
+  width: 425px;
+  height: 313px;
+  background-color: var(--terms_light_bg);
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.group_1816_funding {
+  margin-top: 27px;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12.58px;
+  position: relative;
+}
+
+.group_1816_funding span {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.group_1816_funding input[type="text"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid #1d2731;
+  width: 384.62px;
+  height: 37.75px;
+  padding-left: 20.24px;
+  color: var(--intrest_special);
+}
+
+.group_1816_funding img {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 33.71px;
+  right: 39.97px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.group_1815_funding {
+  margin-top: 12.58px;
+  margin-left: 18px;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12.58px;
+  position: relative;
+}
+
+.funding_title {
+  display: flex;
+  gap: 13.1px;
+}
+
+.funding_title span {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.group_1815_funding input[type="text"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid #1d2731;
+  width: 384.62px;
+  height: 37.75px;
+  padding-left: 20.24px;
+  color: var(--intrest_special);
+}
+
+.span_div_funding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10.97px;
+}
+
+.last_span {
+  display: flex;
+  flex-direction: row;
+}
+
+.last_content {
+  width: 103.6px;
+  height: 14.68px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.span_div_funding span {
+  color: var(--intrest_special);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.span_div_funding span span {
+  color: white;
+}
+
+.funding_button {
+  width: 364px;
+  height: 38px;
+  background-color: var(--secondary);
+  margin-top: 35.65px;
+  margin-left: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.funding_button span {
+  color: var(--terms_btn_txt);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.rectangle_429 {
+  width: 425px;
+  height: 57px;
+  background: rgba(136, 200, 0, 0.08);
+  border-radius: 6px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangle_429 .loader_funding img {
+  width: 28px;
+  height: 28px;
+}
+
+.rectangle_429 .loader_funding {
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+.rectangle_429 span {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #628121;
+}
+
+.skip_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 40px;
+  color: #496178;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 39.49px;
+    right: 29.97px;
+}
+
+.arrows svg{
+    width: 9.43px;
+    height: 9px;
+    color: #39495A;
+    cursor: pointer;
+}
+
+.zigzag_vertical_funding {
+  width: 276px;
+  height: 276px;
+  position: absolute;
+  right: 137px;
+  top: 609px;
+  display: flex;
+  flex-direction: row;
+}
+
+.zigzag_vertical_funding img {
+  height: 276px;
+  width: 137.98px;
+}
