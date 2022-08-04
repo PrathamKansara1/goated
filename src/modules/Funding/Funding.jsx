@@ -21,7 +21,7 @@ const Funding = () => {
       <div className="rectangle_1392_funding">
         <div className="group_1816_funding">
           <span>Deposit form Wallet</span>
-          <input type="text" placeholder="0x7hufkh732Dhfa3Dlkjdshuw389dsfsdh" />
+          <input type="text" placeholder="0x7hufkh732Dhf" />
           <img src={Copybtn} alt="copy" />
         </div>
 
@@ -48,7 +48,7 @@ const Funding = () => {
           </div>
         </div>
 
-        <Link to="/preference" className="funding_button">
+        <Link to="/funding/success" className="funding_button">
           <span>Continue to Goated</span>
         </Link>
       </div>
@@ -61,15 +61,16 @@ const Funding = () => {
           It takes about 3-4 minutes for the transaction to be confirmed{" "}
         </span>
       </div>
+      
+      <Link className="skip_text" to="/funding">
+        skip for now
+      </Link>
 
       <div className="zigzag_vertical_funding">
         <img src={Vector} alt="vector" />
         <img src={Vector} alt="vector" />
       </div>
 
-      <Link className="skip_text" to="/funding">
-        skip for now
-      </Link>
     </div>
   );
 };
