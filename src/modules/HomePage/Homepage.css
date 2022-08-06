@@ -1,0 +1,4 @@
+.side_content{
+    display: flex;
+    flex-direction: row;
+}
