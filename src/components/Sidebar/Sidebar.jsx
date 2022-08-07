@@ -56,6 +56,8 @@ export const Sidebar = () => {
       </div>
       <div className="sidebar_content">
         <Content />
+        <Content />
+        <Content />
       </div>
     </div>
   );

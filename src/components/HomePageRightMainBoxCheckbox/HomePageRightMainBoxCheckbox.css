@@ -1,0 +1,22 @@
+.checks {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+}
+
+.checks span {
+  color: #5D7085;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 980px) {
+  .checks {
+    gap: 12px;
+  }
+
+  .checks span {
+    font-size: 10px;
+  }
+}

@@ -41,6 +41,7 @@
 .jonathan_smith_expand {
   cursor: pointer;
 }
+
 .navbar_main {
   width: 100%;
   height: 2.75rem;
@@ -68,7 +69,7 @@
   align-items: center;
 }
 
-.navbar_main .left_nav .none{
+.navbar_main .left_nav .none {
   display: none;
 }
 
@@ -131,10 +132,12 @@
   .navbar {
     justify-content: flex-start;
   }
+
   .navbar_main {
     justify-content: flex-start;
   }
-  .right_nav .right_nav_links{
+
+  .right_nav .right_nav_links {
     margin-left: 20px;
     margin-right: 0;
   }
@@ -149,8 +152,8 @@
   }
 }
 
-@media screen and (max-width: 800px){
-  .right_nav{
+@media screen and (max-width: 800px) {
+  .right_nav {
     position: fixed;
     bottom: 0px;
     z-index: 99;
@@ -161,13 +164,14 @@
     align-items: center;
   }
 
-  .right_nav_links{
+  .right_nav_links {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
   }
-  .left_nav{
+
+  .left_nav {
     border: none !important;
   }
 }

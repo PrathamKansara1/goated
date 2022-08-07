@@ -1,0 +1,14 @@
+.checkbox_compomnent {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+  .checkbox_compomnent {
+    height: 15px;
+    width: 15px;
+  }
+}

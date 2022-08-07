@@ -18,6 +18,8 @@ const Homepage = () => {
               <Carousel />
               <RightMainBox />
             </div>
+            <div className="home_middle"></div>
+            <div className="home_lower">f</div>
           </div>
         </div>
       </Mainpage>

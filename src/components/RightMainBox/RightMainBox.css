@@ -1,7 +1,78 @@
 .right_main_box {
-  width: 360px;
-  height: 251px;
   background: #121a21;
   border-radius: 7px;
-  margin: 0 24px;
+  min-width: 380px;
+  width: 380px;
+  padding: 18px 26px;
+  height: 250px;
+}
+
+.box_1 {
+  height: 100%;
+}
+
+.conditions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.signin_button {
+  display: flex;
+  margin-top: 22px;
+  background: #1A232E;
+  width: 303px;
+  height: 32px;
+  box-shadow: 1px 1px 1px 1px #1A232E;
+  border: none;
+  outline: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.signin_button span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: white;
+}
+
+.signin_button svg {
+  color: white;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1268px) {
+  .conditions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .right_main_box {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .conditions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+  .signin_button {
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+  }
+
+  .signin_button span {
+    font-size: smaller;
+  }
 }
