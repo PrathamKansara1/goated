@@ -133,27 +133,6 @@
 
 }
 
-.rectangle_13 {
-  width: 364px;
-  height: 38px;
-  background-color: var(--secondary);
-  margin-top: 45px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.rectangle_13 span {
-  color: var(--terms_btn_txt);
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-}
-
 .zigzag_vertical {
   width: 276px;
   height: 276px;

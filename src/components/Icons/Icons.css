@@ -1,0 +1,4 @@
+.icon_component svg{
+    color: var(--intrest_special);
+    cursor: pointer;
+}

@@ -11,8 +11,8 @@ import Mma from "../../assets/IntrestSvg/MMA.svg";
 import Rugby from "../../assets/IntrestSvg/Rugby.svg";
 import Tennis from "../../assets/IntrestSvg/Tennis.svg";
 import Volleyball from "../../assets/IntrestSvg/Volleyball.svg";
-import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
+import Button from "../../components/Button";
 
 const Preference = () => {
   const intrests = [
@@ -102,9 +102,16 @@ const Preference = () => {
               />
             ))}
           </div>
-          <Link to="/funding" className="preference_button">
-            <span>Continue to Goated</span>
-          </Link>
+          <Button
+            customStyle={{
+              height: "38px",
+              width: "364px",
+              marginTop: "26px",
+              marginLeft: "26px",
+            }}
+            navigate="/funding"
+            text="Continue To Goated"
+          />
         </div>
 
         <div className="zigzag_vertical_preference">

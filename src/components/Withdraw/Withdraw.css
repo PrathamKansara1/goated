@@ -1,0 +1,57 @@
+.withdraw_second {
+  margin-top: 27px;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12.58px;
+  position: relative;
+}
+
+
+.withdraw_second input[type="text"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid #1d2731;
+  width: 384px;
+  height: 37.75px;
+  padding-left: 20.24px;
+  color: var(--intrest_special);
+}
+
+.withdraw_second img {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 33.71px;
+  right: 39.97px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.withdraw_title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.withdraw_first {
+  margin-top: 12.58px;
+  margin-left: 18px;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12.58px;
+  position: relative;
+}
+
+.withdraw_first input[type="text"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #1d2731;
+    width: 384px;
+    height: 37.75px;
+    padding-left: 20.24px;
+    color: var(--intrest_special);
+  }

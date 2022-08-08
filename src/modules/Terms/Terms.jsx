@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Terms.css";
 import Vector from "../../assets/Vector.png";
 import SliderTop from "../../components/SliderTop";
-import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
+import Button from "../../components/Button";
 
 const Terms = () => {
   const [checked, setChecked] = useState(false);
@@ -46,12 +46,15 @@ const Terms = () => {
               </p>
             </div>
           </div>
-          <Link
-            to={checked === true ? "/preference" : "/"}
-            className="rectangle_13"
-          >
-            <span>Continue to Goated</span>
-          </Link>
+          <Button
+            customStyle={{
+              height: "38px",
+              width: "364px",
+              marginTop: "45px",
+            }}
+            navigate={checked === true ? "/preference" : "/"}
+            text="Continue To Goated"
+          />
         </div>
         <div className="zigzag_vertical">
           <img src={Vector} alt="" />

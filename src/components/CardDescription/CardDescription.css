@@ -1,0 +1,13 @@
+.card_description{
+    display: flex;
+    flex-direction: row;
+    margin: 24px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_card_description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}

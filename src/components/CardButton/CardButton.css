@@ -1,0 +1,10 @@
+.card_description_button {
+  background: rgba(0, 200, 92, 0.15);
+  width: 84px;
+  height: 33px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

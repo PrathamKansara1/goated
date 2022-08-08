@@ -1,0 +1,26 @@
+.switch_item {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  cursor: pointer;
+  background: rgba(35, 44, 52, 0.16);
+  flex: 3;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch_item .switch_icon svg {
+  color: var(--intrest_special);
+}
+
+.switcher_options .active{
+    background-color: var(--terms_light_bg);
+}
+
+.switcher_options .active span{
+    color: white;
+}
+.switcher_options .active svg{
+    color: var(--secondary);
+}

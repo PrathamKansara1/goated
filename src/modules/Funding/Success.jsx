@@ -1,10 +1,10 @@
 import React from "react";
 import SliderTop from "../../components/SliderTop";
 import "./Funding.css";
-import { Link } from "react-router-dom";
 import Vector from "../../assets/Vector.png";
 import SuccessLogo from "../../assets/successsvg.svg";
 import Navbar from "../../components/Navbar";
+import Button from "../../components/Button";
 
 const Success = () => {
   return (
@@ -23,9 +23,15 @@ const Success = () => {
           </div>
           <span className="success_bold">12,304 USDC</span>
           <span className="success_message">Deposit Successful</span>
-          <Link to="/Home" className="funding_success_button">
-            <span>Continue to Goated</span>
-          </Link>
+          <Button
+            customStyle={{
+              height: "40px",
+              width: "387px",
+              marginTop: "36px",
+            }}
+            navigate="/Home"
+            text="Continue To Goated"
+          />
         </div>
 
         <div className="zigzag_vertical_funding">

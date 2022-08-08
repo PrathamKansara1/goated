@@ -1,0 +1,9 @@
+.box {
+  width: 425px;
+  height: 313px;
+  background-color: var(--terms_light_bg);
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}

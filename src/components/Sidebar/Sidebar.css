@@ -83,6 +83,11 @@
   cursor: pointer;
 }
 
+.sidebar_content_title_div img{
+  width: 15px;
+  height: 15px;
+}
+
 .content_values {
   margin-top: 18px;
   padding: 0 17px;
