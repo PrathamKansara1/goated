@@ -4,7 +4,7 @@ import "./Icons.css";
 const Icons = (props) => {
   return (
     <>
-      <div className="icon_component">{props.icon}</div>
+      <div className="icon_component" style={props.customStyle}>{props.icon}</div>
     </>
   );
 };

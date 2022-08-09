@@ -2,9 +2,9 @@ import React from "react";
 import HomePageRightMainBoxCheckbox from "../HomePageRightMainBoxCheckbox";
 import HomePageTitle from "../HomePageTitle/HomePageTitle";
 import "./RightMainBox.css";
-import Logo from "../../assets/fundinglogo.svg";
 import Switcher from "../Switcher";
 import { MdArrowRight } from "react-icons/md";
+import { Funding } from "../../assets/ImpLogo/Funding";
 
 const RightMainBox = (props) => {
   const { ...other } = props;
@@ -27,7 +27,7 @@ const RightMainBox = (props) => {
             </div>
 
             <button className="signin_button">
-              <img src={Logo} alt="" />
+              <img src={<Funding/>} alt="" />
               <HomePageTitle
                 title="Why join Goated?"
                 customStyle={{ fontSize: "13px" }}

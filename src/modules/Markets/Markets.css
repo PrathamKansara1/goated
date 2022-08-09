@@ -1,0 +1,82 @@
+.market_event_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event_name_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.market_match_name{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.match_date_time{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.event_description{
+    margin-top: 20px;
+}
+
+.market_cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.market_card_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.market_card_upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.market_lower_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.BET_FORM{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.close_btn_bet_form svg{
+    font-size: 50px;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.close_btn_bet_form{
+    height: 75%;
+}

@@ -1,0 +1,11 @@
+.balance_btn {
+  background-color: #24303d;
+  width: 42px;
+  height: 20px;
+  font-size: 10px;
+  color: #6d7d9a;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

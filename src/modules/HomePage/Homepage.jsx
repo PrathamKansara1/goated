@@ -6,10 +6,9 @@ import Navbar from "../../components/Navbar";
 import RightMainBox from "../../components/RightMainBox";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import "./Homepage.css";
-import Trending from "../../assets/HomePage/Trending.png";
-import HomePageTitle from "../../components/HomePageTitle/HomePageTitle";
 import Data from "../../data/Data.json";
 import MainContainer from "../../components/MainContainer/MainContainer";
+import MiddleTitle from "../../components/MiddleTitle/MiddleTitle";
 
 const Homepage = () => {
   const cardData = Data.Cards;
@@ -18,22 +17,13 @@ const Homepage = () => {
       <Mainpage>
         <Navbar main_pages="true" active="Home" />
         <div className="side_content">
-          <Sidebar />
-          <MainContainer>
+          <Sidebar customStyle={{ flex: "2" }} />
+          <MainContainer customStyle={{ flex: "8" }}>
             <div className="home_upper">
               <Carousel />
               <RightMainBox user={true} />
             </div>
-            <div className="home_middle">
-              <div className="home_middle_left">
-                <img src={Trending} alt="" />
-                <HomePageTitle
-                  title="All Markets"
-                  customStyle={{ fontSize: "20px" }}
-                />
-              </div>
-              <div className="Home_middle_right"></div>
-            </div>
+            <MiddleTitle title="All Markets" />
             <div className="home_lower">
               {cardData.map((item, index) => (
                 <Card item={item} key={index} />

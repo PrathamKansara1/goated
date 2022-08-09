@@ -2,11 +2,11 @@ import React from "react";
 import Button from "../Button";
 import "./Deposit.css";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-import USDSvg from "../../assets/usdsvg.svg";
-import FundingLogo from "../../assets/fundinglogo.svg";
-import Copybtn from "../../assets/copybtn.svg";
+import USDSvg from "../../assets/Png/Usd.png";
 import Box from "../Box";
+import {CopyBtn} from '../../assets/ImpLogo/CopyBtn'
 import HomePageTitle from "../HomePageTitle/HomePageTitle";
+import {Funding} from '../../assets/ImpLogo/Funding'
 
 const Deposit = (props) => {
   return (
@@ -14,12 +14,12 @@ const Deposit = (props) => {
       <div className="group_1816_funding">
         <HomePageTitle title="Deposit From Wallet" customStyle={{fontSize : "12px"}} />
         <input type="text" placeholder="0x7hufkh732Dhf" />
-        <img src={Copybtn} alt="copy" />
+        <img src={<CopyBtn/>} alt="copy" />
       </div>
 
       <div className="group_1815_funding">
         <div className="funding_title">
-          <img src={FundingLogo} alt="logo" />
+          <img src={<Funding/>} alt="logo" />
           <HomePageTitle title="Deposit from FTX" customStyle={{fontSize : "12px"}} />
         </div>
         <input type="text" placeholder="Enter an amount" />

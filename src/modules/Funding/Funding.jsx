@@ -1,9 +1,9 @@
 import React from "react";
 import SliderTop from "../../components/SliderTop";
-import Vector from "../../assets/Vector.png";
+import Vector from "../../assets/Png/Vector.png";
 import { Link } from "react-router-dom";
 import "./Funding.css";
-import Loader from "../../assets/loader.gif";
+import Loader from "../../assets/Png/loader.gif";
 import Navbar from "../../components/Navbar";
 import Deposit from "../../components/Deposit/Deposit";
 

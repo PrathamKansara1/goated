@@ -13,7 +13,8 @@ import { SiYoutubegaming } from "react-icons/si";
 import { GiFullMotorcycleHelmet } from "react-icons/gi";
 import Content from "./Content";
 import Data from "../../data/Data.json";
-export const Sidebar = () => {
+
+export const Sidebar = ({customStyle}) => {
   const content = Data.Fixtures[0].fixture_data;
   const Fixtures = Data.Fixtures;
   const sidebar_options = [
@@ -51,7 +52,7 @@ export const Sidebar = () => {
     },
   ];
   return (
-    <div className="sidebar_main">
+    <div className="sidebar_main" style={customStyle}>
       <div className="sidebar">
         {sidebar_options.map((item, index) => (
           <SidebarItem icon={item.svg} name={Fixtures[index].fixture_title} key={index} />

@@ -1,7 +1,7 @@
 import React from "react";
 import "./LightText.css";
 
-const LighText = (props) => {
+const LightText = (props) => {
   return (
     
       <span className="light_text" style={props.customStyle}>{props.lightText}</span>
@@ -9,4 +9,4 @@ const LighText = (props) => {
   );
 };
 
-export default LighText;
+export default LightText;

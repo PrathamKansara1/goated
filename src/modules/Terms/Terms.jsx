@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Terms.css";
-import Vector from "../../assets/Vector.png";
+import Vector from "../../assets/Png/Vector.png";
 import SliderTop from "../../components/SliderTop";
 import Navbar from "../../components/Navbar";
 import Button from "../../components/Button";

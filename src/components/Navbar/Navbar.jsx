@@ -1,15 +1,14 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import "./Navbar.css";
-import mainLogo from "../../assets/mainlogo.svg";
-import jonathanSmith from "../../assets/jonathansmith.svg";
-import expandsvg from "../../assets/expandsvg.svg";
-import Goated from "../../assets/GOATED.png";
+import {MainLogo} from '../../assets/ImpLogo/MainLogo'
+import jonathanSmith from "../../assets/Png/Avatar.png";
+import {Expand} from '../../assets/ImpLogo/Expand'
+import Goated from "../../assets/Png/GOATED.png";
 import { MdMenu, MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/fundinglogo.svg";
+import { Funding } from "../../assets/ImpLogo/Funding";
 
 const Navbar = (props) => {
-  const [activeLink, setActiveLink] = useState(props.active)
   const menuref = useRef();
   const closeref = useRef();
 
@@ -29,30 +28,51 @@ const Navbar = (props) => {
             <div className="left_nav">
               {window.innerWidth < 800 ? (
                 <>
-                <div ref={menuref} className="menu" onClick={menuHandler}>
-                <MdMenu />
-              </div>
-              <div ref={closeref} className="close none" onClick={closeHandler}>
-                <MdClose />
-              </div>
+                  <div ref={menuref} className="menu" onClick={menuHandler}>
+                    <MdMenu />
+                  </div>
+                  <div
+                    ref={closeref}
+                    className="close none"
+                    onClick={closeHandler}
+                  >
+                    <MdClose />
+                  </div>
                 </>
-              ) : []}
+              ) : (
+                []
+              )}
               <img src={Goated} alt="" />
             </div>
             <div className="right_nav">
               <ul className="right_nav_links">
-                <Link to="/" className={props.active === "Home" ? "active" : ""}>
+                <Link
+                  to="/"
+                  className={props.active === "Home" ? "active" : ""}
+                >
                   Home
                 </Link>
-                <Link to="/account" className={props.active === "Account" ? "active" : ""}>Account</Link>
-                <Link to="/" className={props.active === "MyBets" ? "active" : ""}>My Bets</Link>
-                <Link to="/" className={props.active === "FAQ" ? "active" : ""}>FAQ</Link>
+                <Link
+                  to="/account"
+                  className={props.active === "Account" ? "active" : ""}
+                >
+                  Account
+                </Link>
+                <Link
+                  to="/markets"
+                  className={props.active === "Markets" ? "active" : ""}
+                >
+                  Markets
+                </Link>
+                <Link to="/" className={props.active === "FAQ" ? "active" : ""}>
+                  FAQ
+                </Link>
               </ul>
             </div>
           </div>
           <div className="jonathan_smith">
             <div className="jonathan_smith_image">
-              <img src={Logo} alt="" />
+              <img src={<Funding/>} alt="" />
             </div>
             <div className="jonathan_smith_name">
               <span>Sign In with FTX</span>
@@ -65,7 +85,7 @@ const Navbar = (props) => {
       ) : (
         <>
           <div className="navbar">
-            <img src={mainLogo} alt="" />
+            <img src={<MainLogo/>} alt="" />
           </div>
           <div className="jonathan_smith">
             <div className="jonathan_smith_image">
@@ -75,7 +95,7 @@ const Navbar = (props) => {
               <span>Jonathan Smith</span>
             </div>
             <div className="jonathan_smith_expand">
-              <img src={expandsvg} alt="" />
+              <img src={<Expand/>} alt="" />
             </div>
           </div>
         </>

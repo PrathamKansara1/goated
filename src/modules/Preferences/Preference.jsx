@@ -1,6 +1,6 @@
 import React from "react";
 import SliderTop from "../../components/SliderTop";
-import Vector from "../../assets/Vector.png";
+import Vector from "../../assets/Png/Vector.png";
 import "./Preference.css";
 import Intrests from "../../components/Intrests";
 import Basketball from "../../assets/IntrestSvg/Basketball.svg";

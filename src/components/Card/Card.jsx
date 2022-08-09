@@ -6,26 +6,26 @@ import LightText from "../LightText";
 import "./Card.css";
 import Germany from "../../assets/HomePage/Germany.png";
 
-const Card = ({item}) => {
+const Card = ({item,customStyle}) => {
   const description = item.description;
   return (
-    <div className="card">
+    <div className="card" style={customStyle}>
       <div className="upper_card">
         <Icons />
         <div className="card_title">
           <HomePageTitle
-            title={item.title}
+            title={item.title && item.title}
             customStyle={{ fontSize: "20px" }}
           />
         </div>
         <div className="card_detail">
           <LightText
-            lightText={item.date}
+            lightText={item.date && item.date}
             customStyle={{ fontSize: "13px", textTransform: "uppercase" }}
           />
           <li>
             <LightText
-              lightText={item.time + " gmt"}
+              lightText={item.time && item.time + " gmt"}
               customStyle={{ fontSize: "13px", textTransform: "uppercase" }}
             />
           </li>

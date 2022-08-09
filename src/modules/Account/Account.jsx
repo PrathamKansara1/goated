@@ -10,11 +10,11 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import Switcher from "../../components/Switcher";
 import "./Account.css";
 import ChartPng from "../../assets/AccountPage/chart.png";
-import FundingLogo from "../../assets/fundinglogo.svg";
 import Table from "../../components/Table";
 import Data from "../../data/Data.json";
 import HomePageTitle from "../../components/HomePageTitle/HomePageTitle";
 import Button from "../../components/Button";
+import { Funding } from "../../assets/ImpLogo/Funding";
 
 const Account = () => {
   const PostTrades = Data.PostTrades;
@@ -24,8 +24,8 @@ const Account = () => {
     <Mainpage>
       <Navbar main_pages="true" active="Account" />
       <div className="side_content">
-        <Sidebar />
-        <MainContainer>
+        <Sidebar customStyle={{ flex: "2" }} />
+        <MainContainer customStyle={{ flex: "8" }}>
           <div className="account_first">
             {active ? (
               <>
@@ -59,7 +59,7 @@ const Account = () => {
                     <div className="account_box">
                       <BalanceContent
                         logoType="Png"
-                        logo={FundingLogo}
+                        logo={<Funding/>}
                         text="FTX BALANCE"
                         value="1,29,3939.39"
                         customStyle={{ border: "none" }}
@@ -81,9 +81,33 @@ const Account = () => {
                 </div>
 
                 <div className="right_most">
-                  <Box customStyle={{width: "300px",height: "350px",marginTop: "0",backgroundColor : "var(--secondary)"}} >
-                    <HomePageTitle title="Discover New Markets To Trade" customStyle={{fontSize:"27px",fontWeight: "700", margin: "20px 15px"}} />
-                    <Button navigate="/" text="Back To Trading" customStyle={{backgroundColor:"white",width: "270px",height: "30px",color:"var(--secondary) ",margin:"30px 15px"}} />
+                  <Box
+                    customStyle={{
+                      width: "300px",
+                      height: "350px",
+                      marginTop: "0",
+                      backgroundColor: "var(--secondary)",
+                    }}
+                  >
+                    <HomePageTitle
+                      title="Discover New Markets To Trade"
+                      customStyle={{
+                        fontSize: "27px",
+                        fontWeight: "700",
+                        margin: "20px 15px",
+                      }}
+                    />
+                    <Button
+                      navigate="/"
+                      text="Back To Trading"
+                      customStyle={{
+                        backgroundColor: "white",
+                        width: "270px",
+                        height: "30px",
+                        color: "var(--secondary) ",
+                        margin: "30px 15px",
+                      }}
+                    />
                   </Box>
                 </div>
               </>

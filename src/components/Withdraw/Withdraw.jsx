@@ -3,16 +3,15 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Box from "../Box";
 import HomePageTitle from "../HomePageTitle/HomePageTitle";
 import "./Withdraw.css";
-
-import FundingLogo from "../../assets/fundinglogo.svg";
 import Button from "../Button";
+import { Funding } from "../../assets/ImpLogo/Funding";
 
 const Withdraw = (props) => {
   return (
     <Box customStyle={props.customStyle}>
       <div className="withdraw_first">
         <div className="withdraw_title">
-          <img src={FundingLogo} alt="logo" />
+          <img src={<Funding/>} alt="logo" />
           <HomePageTitle
             title="Withdraw to FTX"
             customStyle={{ fontSize: "12px" }}

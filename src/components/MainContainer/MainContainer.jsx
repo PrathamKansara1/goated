@@ -1,9 +1,9 @@
 import React from 'react'
 import './MainContainer.css'
 
-const MainContainer = ({...other}) => {
+const MainContainer = ({customStyle,...other}) => {
   return (
-    <div className='main_container' {...other}></div>
+    <div className='main_container' {...other} style={customStyle}></div>
   )
 }
 

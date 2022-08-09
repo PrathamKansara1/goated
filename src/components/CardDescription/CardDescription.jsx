@@ -3,9 +3,9 @@ import CardButton from "../CardButton/CardButton";
 import HomePageTitle from "../HomePageTitle/HomePageTitle";
 import "./CardDescription.css";
 
-const CardDescription = ({desc,svg}) => {
+const CardDescription = ({desc,svg,customStyle}) => {
   return (
-    <div className="card_description">
+    <div className="card_description" style={customStyle}>
       <div className="left_card_description">
         <div className="card_description_svg">
           <img src={svg} alt="" />
