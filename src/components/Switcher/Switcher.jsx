@@ -5,8 +5,9 @@ import Deposit from "../Deposit/Deposit";
 import HomePageTitle from "../HomePageTitle/HomePageTitle";
 import SwitcherItem from "../SwitcherItem";
 import Withdraw from "../Withdraw";
+import './Switcher.css'
 
-const Switcher = ({ active }) => {
+const Switcher = ({ active, customStyle }) => {
   const [activeSwitcher, setActiveSwitcher] = useState(
     active === "Three" ? "Balance" : "Deposit"
   );
@@ -16,7 +17,7 @@ const Switcher = ({ active }) => {
   return (
     <>
       {active && active === "Three" ? (
-        <div className="switchers">
+        <div className="switchers" style={customStyle}>
           <div className="switcher_options">
             <SwitcherItem
               icon={<MdBook />}
@@ -43,13 +44,13 @@ const Switcher = ({ active }) => {
               active={activeSwitcher === "Withdraw" ? true : false}
             />
           </div>
-          <div className="switcher_content">
+          <div className="switcher_content" >
             {activeSwitcher === "Balance" ? (
-              <Balance customStyle={{ marginTop: "0px" }} />
+              <Balance customStyle={customStyle} />
             ) : activeSwitcher === "Deposit" ? (
-              <Deposit customStyle={{ marginTop: "0px" }} />
+              <Deposit customStyle={customStyle} />
             ) : activeSwitcher === "Withdraw" ? (
-              <Withdraw customStyle={{ marginTop: "0px" }} />
+              <Withdraw customStyle={customStyle} />
             ) : (
               <HomePageTitle
                 text="Something Went Wrong"

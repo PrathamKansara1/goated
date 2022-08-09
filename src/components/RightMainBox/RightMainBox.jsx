@@ -7,13 +7,12 @@ import Switcher from "../Switcher";
 import { MdArrowRight } from "react-icons/md";
 
 const RightMainBox = (props) => {
-
   const { ...other } = props;
-  
+
   return (
     <>
       {props.user ? (
-        <Switcher active="Three"/>
+        <Switcher customStyle={{ marginTop: "0px" }} active="Three" />
       ) : (
         <div className="right_main_box" {...other}>
           <div className="box_1">

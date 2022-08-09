@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
+  width: 100%;
+}
+
+.right_most .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .account_first_left .box {
@@ -13,6 +21,10 @@
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.left_most{
+  margin-bottom: 50px;
 }
 
 .account_box {
