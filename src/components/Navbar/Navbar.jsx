@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import mainLogo from "../../assets/mainlogo.svg";
 import jonathanSmith from "../../assets/jonathansmith.svg";
@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/fundinglogo.svg";
 
 const Navbar = (props) => {
+  const [activeLink, setActiveLink] = useState(props.active)
   const menuref = useRef();
   const closeref = useRef();
 
@@ -40,12 +41,12 @@ const Navbar = (props) => {
             </div>
             <div className="right_nav">
               <ul className="right_nav_links">
-                <Link to="/" className="active">
+                <Link to="/" className={props.active === "Home" ? "active" : ""}>
                   Home
                 </Link>
-                <Link to="/">Account</Link>
-                <Link to="/">My Bets</Link>
-                <Link to="/">FAQ</Link>
+                <Link to="/account" className={props.active === "Account" ? "active" : ""}>Account</Link>
+                <Link to="/" className={props.active === "MyBets" ? "active" : ""}>My Bets</Link>
+                <Link to="/" className={props.active === "FAQ" ? "active" : ""}>FAQ</Link>
               </ul>
             </div>
           </div>

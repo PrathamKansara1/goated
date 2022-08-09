@@ -13,7 +13,7 @@ const RightMainBox = (props) => {
   return (
     <>
       {props.user ? (
-        <Switcher />
+        <Switcher active="Three"/>
       ) : (
         <div className="right_main_box" {...other}>
           <div className="box_1">

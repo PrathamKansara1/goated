@@ -9,20 +9,20 @@ import "./Homepage.css";
 import Trending from "../../assets/HomePage/Trending.png";
 import HomePageTitle from "../../components/HomePageTitle/HomePageTitle";
 import Data from "../../data/Data.json";
+import MainContainer from "../../components/MainContainer/MainContainer";
 
 const Homepage = () => {
   const cardData = Data.Cards;
   return (
     <>
       <Mainpage>
-        <Navbar main_pages="true" />
+        <Navbar main_pages="true" active="Home" />
         <div className="side_content">
           <Sidebar />
-          <div className="home_page">
+          <MainContainer>
             <div className="home_upper">
               <Carousel />
-              <RightMainBox user={true}/>
-              
+              <RightMainBox user={true} />
             </div>
             <div className="home_middle">
               <div className="home_middle_left">
@@ -39,7 +39,7 @@ const Homepage = () => {
                 <Card item={item} key={index} />
               ))}
             </div>
-          </div>
+          </MainContainer>
         </div>
       </Mainpage>
     </>

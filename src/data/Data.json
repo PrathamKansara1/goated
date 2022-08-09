@@ -18,7 +18,8 @@
           "desc_value": "0.14"
         }
       ]
-    },{
+    },
+    {
       "title": "Real Madrid vs Barcelona",
       "date": "jun 16",
       "time": "2:40 pm",
@@ -36,7 +37,8 @@
           "desc_value": "0.14"
         }
       ]
-    },{
+    },
+    {
       "title": "World Cup Semifinals",
       "date": "jun 16",
       "time": "2:40 pm",
@@ -54,7 +56,8 @@
           "desc_value": "0.14"
         }
       ]
-    },{
+    },
+    {
       "title": "Juventus vs Arsenal",
       "date": "jun 16",
       "time": "2:40 pm",
@@ -72,7 +75,8 @@
           "desc_value": "0.14"
         }
       ]
-    },{
+    },
+    {
       "title": "Argentina vs Chelsea",
       "date": "jun 16",
       "time": "2:40 pm",
@@ -90,7 +94,8 @@
           "desc_value": "0.14"
         }
       ]
-    },{
+    },
+    {
       "title": "Spain vs Japan",
       "date": "jun 16",
       "time": "2:40 pm",
@@ -110,639 +115,824 @@
       ]
     }
   ],
-  "Fixtures" : [
+  "Fixtures": [
     {
-      "fixture_title" : "Popular",
-      "fixture_data" : [
+      "fixture_title": "Popular",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
-    },{
-      "fixture_title" : "Football",
-      "fixture_data" : [
+    },
+    {
+      "fixture_title": "Football",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
-    },{
-      "fixture_title" : "Basketball",
-      "fixture_data" : [
+    },
+    {
+      "fixture_title": "Basketball",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
-    },{
-      "fixture_title" : "Tennis",
-      "fixture_data" : [
+    },
+    {
+      "fixture_title": "Tennis",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
-    },{
-      "fixture_title" : "Gaming",
-      "fixture_data" : [
+    },
+    {
+      "fixture_title": "Gaming",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
-    },{
-      "fixture_title" : "Boxing",
-      "fixture_data" : [
+    },
+    {
+      "fixture_title": "Boxing",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
-    },{
-      "fixture_title" : "Racing",
-      "fixture_data" : [
+    },
+    {
+      "fixture_title": "Racing",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
-    },{
-      "fixture_title" : "Cricket",
-      "fixture_data" : [
+    },
+    {
+      "fixture_title": "Cricket",
+      "fixture_data": [
         {
-          "title" : "Champions League 22",
-          "icon" : "/assets/contents/championsleague22.png",
-          "matches" : [
+          "title": "Champions League 22",
+          "icon": "/assets/contents/championsleague22.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Premier League",
-          "icon" : "../../assets/contents/premierleague.png",
-          "matches" : [
+          "title": "Premier League",
+          "icon": "../../assets/contents/premierleague.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         },
         {
-          "title" : "Bundelsliga 22",
-          "icon" : "../../assets/contents/bundelsliga.png",
-          "matches" : [
+          "title": "Bundelsliga 22",
+          "icon": "../../assets/contents/bundelsliga.png",
+          "matches": [
             {
-              "match" : "Bayern M vs Man Utd",
-              "match_val" : "134"
-            },{
-              "match" : "Chalsea vs Real M",
-              "match_val" : "17"
-            },{
-              "match" : "Arsenal vs Totenham",
-              "match_val" : "11"
-            },{
-              "match" : "Leicester vs Man City",
-              "match_val" : "9"
-            },{
-              "match" : "Totenham vs Man Utd",
-              "match_val" : "5"
-            },{
-              "match" : "Juventus vs Arsenal",
-              "match_val" : "7"
+              "match": "Bayern M vs Man Utd",
+              "match_val": "134"
+            },
+            {
+              "match": "Chalsea vs Real M",
+              "match_val": "17"
+            },
+            {
+              "match": "Arsenal vs Totenham",
+              "match_val": "11"
+            },
+            {
+              "match": "Leicester vs Man City",
+              "match_val": "9"
+            },
+            {
+              "match": "Totenham vs Man Utd",
+              "match_val": "5"
+            },
+            {
+              "match": "Juventus vs Arsenal",
+              "match_val": "7"
             }
           ]
         }
       ]
     }
+  ],
+  "ActiveOrders": [
+    {
+      "id": "#23",
+      "Market": "Real Madrid vs Barcelona",
+      "Outcome": "Madrid Wins",
+      "Odds": "0.34",
+      "Stake": "23.45",
+      "PlacedOn": "12/10/22 - 12:34:58 PM GMT",
+      "Active": true
+    }
+  ],
+  "PostTrades": [
+    {
+      "id": "#23",
+      "Market": "Real Madrid vs Barcelona",
+      "Outcome": "Madrid Wins",
+      "Odds": "0.34",
+      "Stake": "23.45",
+      "PlacedOn": "12/10/22 - 12:34:58 PM GMT",
+      "Active": false
+    },
+    {
+      "id": "#98",
+      "Market": "World Cup Semi Finals",
+      "Outcome": "England",
+      "Odds": "0.34",
+      "Stake": "23.45",
+      "PlacedOn": "12/10/22 - 12:34:58 PM GMT",
+      "Active": false
+    },
+    {
+      "id": "#112",
+      "Market": "Heads vs Tails",
+      "Outcome": "Tails",
+      "Odds": "0.34",
+      "Stake": "23.45",
+      "PlacedOn": "12/10/22 - 12:34:58 PM GMT",
+      "Active": false
+    },
+    {
+      "id": "#06",
+      "Market": "Real Madrid vs Barcelona",
+      "Outcome": "Barcelona Wins",
+      "Odds": "0.34",
+      "Stake": "23.45",
+      "PlacedOn": "12/10/22 - 12:34:58 PM GMT",
+      "Active": false
+    },
+    {
+      "id" : "#01",
+      "Market" : "Champions Trophy",
+      "Outcome" : "Brazil",
+      "Odds" : "0.34",
+      "Stake" : "23.45",
+      "PlacedOn" : "12/10/22 - 12:34:58 PM GMT",
+      "Active" : false
+     }
   ]
 }

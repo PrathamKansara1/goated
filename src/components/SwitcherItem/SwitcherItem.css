@@ -16,6 +16,7 @@
 
 .switcher_options .active{
     background-color: var(--terms_light_bg);
+    border-top: 1px solid var(--secondary);
 }
 
 .switcher_options .active span{

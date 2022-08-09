@@ -8,8 +8,8 @@ import Arrow from "../../assets/HomePage/balanceArrow.png";
 const Balance = (props) => {
   return (
     <Box customStyle={props.customStyle}>
-        <BalanceContent logo={Logo} text="GOAT BALANCE" value="10,230" />
-        <BalanceContent logo={Arrow} text="STAKED" value="10.3K" />
+        <BalanceContent logoType="img" logo={Logo} text="GOAT BALANCE" value="10,230" />
+        <BalanceContent logoType="img" logo={Arrow} text="STAKED" value="10.3K" />
     </Box>
   );
 };

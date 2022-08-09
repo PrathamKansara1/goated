@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+}
+
+.table table {
+  width: 100%;
+}
+
+.table table thead {
+  width: 100%;
+}
+
+.table table thead tr {
+  width: 100%;
+  text-align: left;
+}
+
+.table table thead tr th {
+  padding-bottom: 13px;
+  border-bottom: 1px solid var(--intrest_special);
+}
+
+.table table tbody tr td{
+    padding-top: 13px;
+}
+
+.table_outcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.table_outcome .left{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
